@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Assistant', sans-serif;
+    color: #222;
+    background-color: #fff;
+}
+
+.logo {
+    display: block;
+    width: 80vw;
+    height:auto;
+    margin: 3vh auto;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Courier Prime', monospace;
+    font-style: bold;
+}
+
+h1{
+    margin: 1.25em auto 1em auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    margin: 1em auto 1em auto;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+h3{
+    margin: 2em auto .25em auto;
+    font-size: 24px;   
+}
+
+h4{
+    font-size:20px;
+    margin:0;
+    padding:0;
+}
+
+p{
+    padding:  .25em auto 2em auto;
+    font: 'Assistant', sans-serif;
+    font-size:  18px;
+    line-height: 2em;
+    margin: 0 auto; 
+}
+
+.kwaliteit {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+form ul {
+    list-style-type: none;
+    padding:  .25em auto 2em auto;
+    font: 'Assistant', sans-serif;
+    font-size:  18px;
+    line-height: 2em;
+    width: 90vw;
+    margin: 0 auto; 
+    word-wrap: break-word;
+}
+
+.checklist{
+    position: relative;
+    width: 90vw;
+    margin: 3em auto;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    background-color: #2e2c7a;
+    background-image: linear-gradient(to right, #2e2c7a,#e5087e);
+    color: #f2f2f2;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;  
+}
+
+.contact, .links {
+    flex:1;
+    margin: 0;
+    padding :0;
+}
+
+.links ul, .contact ul {
+    list-style-type: none;
+    padding:2em;
+    margin:0;
+    font-size: 16px;
+}
+
+footer li, .links a{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    font: 'Assistant', sans-serif;
+    font-size:  16px;
+    line-height: 2em;
+    color: #f2f2f2;
+}
+
+.links a:hover{
+    font-size: 22px;
+}
+
+@media (min-width: 1024px){
+      .logo {
+        width: 30vw;
+        height:auto;
+    }
+    .kwaliteit {
+        width: 40vw;
+    }
+    .checklist{
+        width: 40vw;
+        border-radius: 30px;
+    }
+    p, ul, h3{
+        padding: 0 30px;
+    }
+    li{
+        padding-right: 50px;
+    }
+    .footer{
+        width:40vw;
+    }
+}
